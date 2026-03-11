@@ -11,35 +11,56 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Econometrics, Vrije Universiteit Amsterdam, The Netherlands, 2023 - present
+  * Focus on developing machine learning models for forecasting in time-varying conditions
+  * Presentations at ISF Dijon 2024, CFE London 2024, IAAE Torino 2025, ISF Beijing 2025, FinEML Rotterdam 2025, ECB Frankfurt 2026
+* M.Sc. Artificial Intelligence, Cum Laude, Vrije Universiteit Amsterdam, The Netherlands, 2022 - 2024
+* M.Sc. Econometrics and Data Science, Vrije Universiteit Amsterdam, The Netherlands, 2021 - 2023
+* B.Sc. Econometrics and Operations Research, Vrije Universiteit Amsterdam, The Netherlands, 2018 - 2021
+* Summer School on Financial Machine Learning, Yale University, New Haven, USA, 2025
+* Summer School in C++, Jülich Supercomputing Centre, Germany, 2025
+* Courses at Tinbergen Institute, MPhil graduate school, The Netherlands, 2023
 
-Work experience
+Employment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* September 2023 - present: Ph.D. Candidate in Econometrics
+  * Vrije Universiteit Amsterdam, School of Business and Economics
+  * Developing machine learning models for forecasting in time-varying conditions
+  * Coordinating two 600+ student courses
+  * Supervising students during their thesis projects
+  * Presented papers at multiple international conferences
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2023: External Expert
+  * European Commission, European Union
+  * Investigated how Large Language Models affect secondary education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* 2022 - 2023: Research Assistant
+  * Vrije Universiteit Amsterdam, School of Business and Economics
+  * Working on Growth-at-Risk forecasting with Neural Networks
+  * Presentation at The Netherlands Econometric Study Group
+  * Collaborating with senior researchers
+
+* 2021 - 2022: Risk Analyst
+  * RiskQuest, Amsterdam, The Netherlands
+  * Contributed to financial risk assessment for several banks and hedge funds
+  * Performed research in credit rating transition forecasting
+
+Research Fields
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Time Series Econometrics, Forecasting, Machine Learning, Time-Varying Methods, and Macroeconometrics
+
+IT Skills
+======
+* Data Analytics
+  * Extensive experience developing and implementing algorithms for data analytics using Python, R, Matlab and Julia
+  * Some knowledge of C++
+  * In-depth knowledge about using programming software for statistical learning
+  * Expert on working with High Performance Computing for Econometrics
+* Support Tools
+  * Experience with Office 365 including programming of VBA macros
+  * Experience with working with LaTeX
+  * Proficient in using Git for version control and collaborative development
+  * Integration of Large Language Models, online and via API
 
 Publications
 ======
@@ -59,6 +80,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service and Leadership
 ======
-* Currently signed in to 43 different slack teams
+* Econometric Game 2025 Finalist, University of Amsterdam, Amsterdam, Netherlands, 2025
+  * Three-day paper on grid congestion forecasting in Germany
+* National Econometrics Day Committee, Study Association Kraket, Amsterdam, The Netherlands, 2020 - 2021
+  * Together with a team of five fellow Econometricians, organized the National Econometrics Day for 800+ Econometrics students from all over the Netherlands
