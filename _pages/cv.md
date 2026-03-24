@@ -62,7 +62,7 @@ IT Skills
   * Proficient in using Git for version control and collaborative development
   * Integration of Large Language Models, online and via API
 
-Publications
+Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
