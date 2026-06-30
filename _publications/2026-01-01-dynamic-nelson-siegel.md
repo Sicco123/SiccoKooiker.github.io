@@ -3,7 +3,7 @@ title: "Self-driving neural networks for term structure modeling"
 collection: publications
 category: working-papers
 permalink: /publication/2026-01-01-dynamic-nelson-siegel
-excerpt: 'This paper introduces neural network-predicted factor loadings in the dynamic Nelson-Siegel yield curve model for simultaneous analysis and forecasting of interest rates across different maturities.'
+excerpt: 'We propose a factor model with time-varying loadings for term structure modeling, specifying the loadings as neural networks that evolve over time using a self-driving updating scheme based on past forecast errors.'
 date: 2026-01-01
 venue: 'Working Paper'
 paperurl: 'https://papers.tinbergen.nl/26007.pdf'
