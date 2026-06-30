@@ -1,19 +1,31 @@
 ---
-title: "Dynamic Nelson Siegel Model with Time-Varying Neural Factor Loadings"
+title: "Self-driving neural networks for term structure modeling"
 collection: publications
 category: working-papers
 permalink: /publication/2026-01-01-dynamic-nelson-siegel
 excerpt: 'This paper introduces neural network-predicted factor loadings in the dynamic Nelson-Siegel yield curve model for simultaneous analysis and forecasting of interest rates across different maturities.'
 date: 2026-01-01
 venue: 'Working Paper'
-citation: 'Kooiker, S., van Brummelen, J., Schaumburg, J., & Zamojski, M. (2026). Dynamic Nelson Siegel Model with Time-Varying Neural Factor Loadings. <i>Working Paper</i>.'
+paperurl: 'https://papers.tinbergen.nl/26007.pdf'
+citation: 'Kooiker, S., van Brummelen, J., Schaumburg, J., & Zamojski, M. (2026). Self-Driving Neural Networks for Term Structure Modeling. <i>Working Paper</i>.'
 ---
 
 **Authors:** Sicco Kooiker, Janneke van Brummelen, Julia Schaumburg, and Marcin Zamojski
 
 **Abstract:**
 
-In this article, we introduce neural network-predicted factor loadings in the dynamic Nelson-Siegel yield curve model for simultaneous analysis and forecasting of interest rates across different maturities. The classical Nelson-Siegel model has been extended to include vector autoregressive factors and time-varying factor loadings, yet the functional form of these loadings has remained arbitrary despite their recognized importance. We address this limitation by developing a flexible approach that learns factor loadings through two shallow neural networks. Our simulation study shows that a nine-parameter neural network can closely approximate traditional Nelson-Siegel factor loadings. These neural networks improve both in-sample and out-of-sample filtered estimates of the US Treasury bond yield curve. Recognizing the similarity between Stochastic Gradient Descent and score-driven filters, we extend our approach by allowing neural network parameters to evolve in a score-driven manner. We integrate these dynamics within the Kalman filter state space framework to create a simultaneous optimization routine. Our empirical study demonstrates the validity of our method compared to traditional approaches in yield curve forecasting up to one year ahead.
+We propose a factor model with time-varying loadings for term structure modeling and fore-
+casting. While maintaining the interpretation of the factors as level, slope, and curvature
+through explicit identification restrictions, we allow the loadings to take flexible shapes by
+specifying them as neural networks that evolve over time using a “self-driving” updating
+scheme based on past forecast errors, with gradient scaling to improve robustness. Using
+an empirically calibrated simulation study and an application to U.S. Treasury yields across
+24 maturities, we show that flexible and dynamic factor loadings improve forecasting per-
+formance relative to standard benchmarks, including Nelson–Siegel models and the random
+walk. The gains are strongest at medium maturities and shorter forecast horizons, highlight-
+ing the importance of capturing curvature dynamics. In-sample results further illustrate how
+time-varying loadings provide insight into changes in yield curve shape beyond traditional
+parametric specifications.
 
 **Presentations:**
 - ECB Conference on Forecasting Techniques, Frankfurt, Germany (2026)
